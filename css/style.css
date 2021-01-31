@@ -1,0 +1,59 @@
+/* UTILITY CLASS */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* APP CONTAINER */
+.app-container{
+width: 1200px;
+margin: 0 auto;
+}
+
+/* LOGO */
+.img-container{
+    text-align: center;
+}
+.img-container img{
+    width: 300px;
+}
+
+/* MAIN */
+.container{
+    margin-top: 20px;
+}
+/* INPUT */
+.input-container{
+    text-align: center;
+}
+.container input{
+    border-radius: 15px;
+    padding: 5px 15px;
+    margin-right: 8px;
+}
+/* BUTTON */
+.container button{
+    width: 85px;
+    height: 29px;
+    border-radius: 15px;
+}
+/* LIST */
+.list-container{
+    width: 300px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 15px;
+    background-color: lightblue;
+}
+.list-container ul{
+    list-style: none;
+}
+.list-container ul li{
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.list-container ul li span{
+    cursor: pointer;
+}
